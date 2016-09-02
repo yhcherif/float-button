@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- <link rel="stylesheet" href="style.css"> -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto" />
+</head>
+<body>
+
+	<main>
+			<!-- Conteneur principal -->
+		<div id="container">
+			
+		</div>
+	</main>
+	<button class="button material-button float-button action-button" data-toggle="#add-level">
+		<i class="material-icons">mode_edit</i>
+	</button>
+	<div id="add-level" class="button-modal modal">
+		<div class="button-modal-header">
+			<h2 class="modal-heading">Add new grade</h2>
+		</div>
+		<div class="modal-body">
+			<div class="form-group">
+				<input type="text" placeholder="Entrez un niveau" autocomplete="off" class="button-modal-input form-control" />
+			</div>
+		</div>
+		<div class="modal-footer">
+			<div class="button button-modal-send">Add grade</div>
+		</div>
+	</div>
+	<script src="/dist/app.bundle.js"></script>
+</body>
+</html>
